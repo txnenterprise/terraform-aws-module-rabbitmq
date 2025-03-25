@@ -3,11 +3,11 @@ variable "username" {
 }
 
 variable "create_vhost" {
-  type = bool
+  type    = bool
   default = true
 }
 
 variable "vhost" {
-  type = string
+  type    = string
   default = "/"
 }
